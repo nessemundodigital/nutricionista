@@ -8,7 +8,7 @@ export default function StructuredData() {
     "description": "Nutricionista especializada em atendimento personalizado e transformação de vidas através da alimentação saudável.",
     "url": "https://amandavertaso.com",
     "logo": "https://amandavertaso.com/logo-512.png",
-    "image": "https://i.imgur.com/Kg5FYBe.jpeg",
+    "image": "https://i.imgur.com/6sH50t6.jpeg",
     "telephone": "+55-98-91234-5678",
     "email": "contato@amandavertaso.com",
     "address": {
@@ -70,7 +70,7 @@ export default function StructuredData() {
       "name": "Amanda Vertaso",
       "jobTitle": "Nutricionista",
       "description": "Nutricionista com mais de 8 anos de experiência em nutrição clínica",
-      "image": "https://i.imgur.com/Kg5FYBe.jpeg"
+      "image": "https://i.imgur.com/6sH50t6.jpeg"
     },
     "aggregateRating": {
       "@type": "AggregateRating",

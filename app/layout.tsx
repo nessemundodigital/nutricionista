@@ -25,16 +25,16 @@ export const metadata: Metadata = {
     siteName: 'Amanda Vertaso - Nutricionista',
     images: [
       {
-        url: '/logo-512.png',
-        width: 512,
-        height: 512,
-        alt: 'Amanda Vertaso - Nutricionista',
-      },
-      {
-        url: 'https://i.imgur.com/Kg5FYBe.jpeg',
+        url: 'https://i.imgur.com/6sH50t6.jpeg',
         width: 1200,
         height: 630,
         alt: 'Amanda Vertaso - Nutricionista Profissional',
+      },
+      {
+        url: '/logo-512.png',
+        width: 512,
+        height: 512,
+        alt: 'Amanda Vertaso - Logo',
       },
     ],
     locale: 'pt_BR',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Amanda Vertaso - Nutricionista',
     description: 'Transforme sua vida através da alimentação saudável. Primeira consulta gratuita!',
-    images: ['/logo-512.png'],
+    images: ['https://i.imgur.com/6sH50t6.jpeg'],
   },
   robots: {
     index: true,
@@ -76,6 +76,11 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#16a34a" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:image" content="https://i.imgur.com/6sH50t6.jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Amanda Vertaso - Nutricionista Profissional" />
+        <meta name="twitter:image" content="https://i.imgur.com/6sH50t6.jpeg" />
       </head>
       <body className="antialiased">
         {children}
