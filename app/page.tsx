@@ -10,6 +10,14 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <StructuredData />
+      {/* Hidden image for social media preview */}
+      <img 
+        src="https://i.imgur.com/6sH50t6.jpeg" 
+        alt="Amanda Vertaso - Nutricionista" 
+        style={{ display: 'none' }}
+        width="1200"
+        height="630"
+      />
       <Header />
       
       {/* Hero Section */}
@@ -167,11 +175,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-primary-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <img
-                  src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80&q=80"
-                  alt="Maria Silva"
-                  className="w-12 h-12 rounded-full object-cover mr-4"
-                />
+                <div className="w-12 h-12 rounded-full bg-primary-200 flex items-center justify-center mr-4">
+                  <i className="ri-user-line text-primary-600 text-xl"></i>
+                </div>
                 <div>
                   <div className="font-semibold text-gray-900">Maria Silva</div>
                   <div className="text-sm text-gray-600">Perdeu 15kg em 6 meses</div>
@@ -191,11 +197,9 @@ export default function Home() {
             </div>
             <div className="bg-primary-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80&q=80"
-                  alt="João Santos"
-                  className="w-12 h-12 rounded-full object-cover mr-4"
-                />
+                <div className="w-12 h-12 rounded-full bg-primary-200 flex items-center justify-center mr-4">
+                  <i className="ri-user-line text-primary-600 text-xl"></i>
+                </div>
                 <div>
                   <div className="font-semibold text-gray-900">João Santos</div>
                   <div className="text-sm text-gray-600">Melhorou diabetes tipo 2</div>
@@ -215,11 +219,9 @@ export default function Home() {
             </div>
             <div className="bg-primary-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <img
-                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80&q=80"
-                  alt="Ana Costa"
-                  className="w-12 h-12 rounded-full object-cover mr-4"
-                />
+                <div className="w-12 h-12 rounded-full bg-primary-200 flex items-center justify-center mr-4">
+                  <i className="ri-user-line text-primary-600 text-xl"></i>
+                </div>
                 <div>
                   <div className="font-semibold text-gray-900">Ana Costa</div>
                   <div className="text-sm text-gray-600">Ganhou massa muscular</div>

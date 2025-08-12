@@ -70,17 +70,20 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        <meta property="og:image" content="https://i.imgur.com/6sH50t6.jpeg" />
+        <meta property="og:image:secure_url" content="https://i.imgur.com/6sH50t6.jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Amanda Vertaso - Nutricionista Profissional" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta name="twitter:image" content="https://i.imgur.com/6sH50t6.jpeg" />
+        <meta name="twitter:image:alt" content="Amanda Vertaso - Nutricionista Profissional" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/logo.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/logo-192.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#16a34a" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:image" content="https://i.imgur.com/6sH50t6.jpeg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Amanda Vertaso - Nutricionista Profissional" />
-        <meta name="twitter:image" content="https://i.imgur.com/6sH50t6.jpeg" />
       </head>
       <body className="antialiased">
         {children}
