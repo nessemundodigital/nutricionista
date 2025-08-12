@@ -3,11 +3,13 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import StructuredData from '../components/StructuredData'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <StructuredData />
       <Header />
       
       {/* Hero Section */}
